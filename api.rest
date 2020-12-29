@@ -1,0 +1,31 @@
+
+
+
+### 
+GET http://localhost:4000/api/employees  
+
+
+### 
+POST  http://localhost:4000/api/employees 
+Content-Type: application/json
+
+{
+    "name": "Paulo Connors",
+    "position": "snr. developer",
+    "office": "Stgo",
+    "salary": "1000000"
+}
+
+###
+GET http://localhost:4000/api/employees/5fdc2ffab01d745120f8724c
+
+###
+DELETE  http://localhost:4000/api/employees/5fe804a5af8eca5abc96425a
+
+###
+PUT  http://localhost:4000/api/employees/5fdc2ffab01d745120f8724c
+Content-Type: application/json
+
+{
+    "office": "Stgo" 
+}
